@@ -1,0 +1,70 @@
+en:
+
+  helpers:
+    submit:
+      test:
+        create: "Create test"
+        update: "Update test"
+    label:
+      test:
+        title: "Title"
+        level: "Level"
+        category_id: "Category"
+
+  tests:
+    index:
+      header: "Tests list"
+      title: "Title"
+      level: "Level"
+      questions: "Questions"
+      actions: "Actions"
+      start_button: "Start test"
+
+  test_passages:
+    show:
+      header: "Passing %{title}"
+      question_header: "Question %{current_question} from %{total_questions}"
+      next_question_button: "Next question"
+    result:
+      header: "Test %{title} successfully completed"
+      success_rate: "Success rate"
+      back_link: "Back"
+
+  shared:
+    errors:
+      header:
+        one: "%{count} error detected"
+        other: "%{count} errors detected"
+
+  admin:
+    tests:
+      index:
+        header: "Tests list"
+        title: "Title"
+        level: "Level"
+        questions: "Questions"
+        actions: "Actions"
+        new_test_link: "Create test"
+        delete_link: "Delete"
+        edit_link: "Edit"
+        show_link: "Show"
+        confirmation: "Are you sure?"
+      create:
+        success: "Test was successfully created"
+      new:
+        back_link: "Back"
+        header: "Создать тест"
+      update:
+        success: "Test was successfully updated"
+      show:
+        title: "Test title"
+        level: "Level"
+        new_question_link: "New question"
+        questions: "Questions"
+        body: "Body"
+        actions: "Actions"
+        back_link: "Back"
+        edit_link: "Edit"
+      edit:
+        header: "Edit %{title}"
+        back_link: "Back"
